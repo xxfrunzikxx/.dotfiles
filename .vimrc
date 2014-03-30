@@ -1,0 +1,1 @@
+/home/frunzik/.yadr/vimrc

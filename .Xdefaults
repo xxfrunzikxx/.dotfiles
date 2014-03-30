@@ -1,0 +1,93 @@
+Xcursor.theme: Human
+scrollBar: false
+urxvt.cursorColor2: #101010
+
+urxvt*font: xft:Monospace:size=10:style=Regular:autohint=false:antialias=true:hinting=true 
+!urxvt*boldFont: xft:Monospace:size=9:style=Bold:autohint=false:antialias=true:hinting=true 
+!urxvt*italicFont: xft:Monospace:style=Italic:size=9:autohint=true 
+!urxvt.boldItalicFont: xft:Monospace:bold:italic:size=9:autohint=true 
+
+URxvt.letterSpace: -1
+URxvt*perl-ext: tabbed
+urxvt*background: #101010
+URxvt*background: [50]#101010
+urxvt*foreground: #CCCCCC
+urxvt*loginShell: true
+urxvt*saveLines: 2000
+urxvt*boldMode: false
+URxvt*borderLess: false
+
+
+!URxvt*transparent:true
+!URxvt*shading:10
+
+#URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher:    firefox
+URxvt.matcher.button:    1
+URxvt.colorUL:         #86a2be
+
+
+! scrollbar style - rxvt (default)                                                                                     
+                                                
+URxvt.scrollBar: false     
+
+! turn off the scroll bar                                                                          
+URxvt*secondaryWheel  : true                                                                                                                   
+URxvt*secondaryScreen   : true                                                                          
+URxvt*scrollTtyOutput   : false                                                                                                                
+URxvt*scrollTtyKeypress : true
+
+URxvt*scrollstyle:plain
+URxvt*scrollWithBuffer: True
+URxvt*skipScroll: False
+
+!black
+*color0: #101010
+*color8: #101010
+
+!red
+*color1: #FF3333
+*color9: #FF753B
+!green
+*color2: #7FD219
+*color10: #7DD37D
+!yellow
+*color3: #FFDA34
+*color11: #BFB556
+!blue
+*color4: #0066ff
+*color12: #00AAFF
+!magenta
+*color5: #55FF55
+*color13: #BA39D4
+!cyan
+*color6: #4c8ea1
+*color14: #6bc1d0
+!wggte
+*color7: #808080
+*color15: #aaaaaa
+
+
+URxvt.tabbed.tabbar-fg: 7
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg:    0
+URxvt.tabbed.tab-bg:    7
+urxvt.colorMode:         on
+urxvt.boldColors:        on
+urxvt.dynamicColors:     on
+urxvt.colorULMode:       on
+urxvt.underLine:         off
+urxvt.colorBDMode:       on
+urxvt.colorBD:           #FFcc44
+urxvt.colorUL:       	 #287BDE
+
+
+
+URxvt.perl-ext-common:default,matcher,clipboard,url-select,keyboard-select
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      firefox
+URxvt.underlineURLs:    true
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.keysym.M-s:       perl:keyboard-select:search
+
+
